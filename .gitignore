@@ -1,5 +1,5 @@
-./outputImage/*.*
-./optix7course-master/.idea/*.*
-./optix7course-master/build/*.*
-./optix7course-master/cmake-build-release/*.*
-./models/bathroom/*.*
+outputImage/*.*
+optix7course-master/.idea/*.*
+optix7course-master/build/*.*
+optix7course-master/cmake-build-release/*.*
+models/bathroom/*.*

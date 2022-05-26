@@ -1,0 +1,6 @@
+"E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - NMake Makefiles" D:\Codes\Optix\optix7PT_codeBase\optix7course-master
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Using Win32 for window creation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release

@@ -1,0 +1,4 @@
+ToolSet: 16.0 (local)@E:\appdata\VS2019IDE
+Options: msvc.arch=amd64
+
+Options:

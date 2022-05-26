@@ -1,0 +1,15 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_46241\fast && 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_46241.dir\build.make /nologo -L                  CMakeFiles\cmTC_46241.dir\build
+Building C object CMakeFiles/cmTC_46241.dir/CheckIncludeFile.c.obj
+	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @C:\Users\amago\AppData\Local\Temp\nm7A6.tmp
+CheckIncludeFile.c
+D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 無法開啟包含檔案: 'pthread.h': No such file or directory
+NMAKE : fatal error U1077: 'E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe' : 傳回碼 '0x2'
+Stop.
+NMAKE : fatal error U1077: 'E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\HostX64\x64\nmake.exe' : 傳回碼 '0x2'
+Stop.
+
+
+
