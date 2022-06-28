@@ -51,10 +51,10 @@ RM = "E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Codes\Optix\optix7PT_codeBase\optix7course-master
+CMAKE_SOURCE_DIR = D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+CMAKE_BINARY_DIR = D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -117,18 +117,18 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows\\CMakeFiles\progress.marks
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) example10_softShadows\all
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles 0
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) example10_softShadows\clean
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : clean
 
 # The main clean target
@@ -138,30 +138,30 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) example10_softShadows\preinstall
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) example10_softShadows\preinstall
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : depend
 
 # Convenience name for target.
 example10_softShadows\CMakeFiles\path_tracer.dir\rule:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) example10_softShadows\CMakeFiles\path_tracer.dir\rule
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : example10_softShadows\CMakeFiles\path_tracer.dir\rule
 
 # Convenience name for target.
@@ -171,9 +171,9 @@ path_tracer: example10_softShadows\CMakeFiles\path_tracer.dir\rule
 
 # fast build rule for target.
 path_tracer\fast:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f example10_softShadows\CMakeFiles\path_tracer.dir\build.make /nologo -$(MAKEFLAGS) example10_softShadows\CMakeFiles\path_tracer.dir\build
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : path_tracer\fast
 
 Model.obj: Model.cpp.obj
@@ -182,9 +182,9 @@ Model.obj: Model.cpp.obj
 
 # target to build an object file
 Model.cpp.obj:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f example10_softShadows\CMakeFiles\path_tracer.dir\build.make /nologo -$(MAKEFLAGS) example10_softShadows\CMakeFiles\path_tracer.dir\Model.cpp.obj
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : Model.cpp.obj
 
 Model.i: Model.cpp.i
@@ -193,9 +193,9 @@ Model.i: Model.cpp.i
 
 # target to preprocess a source file
 Model.cpp.i:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f example10_softShadows\CMakeFiles\path_tracer.dir\build.make /nologo -$(MAKEFLAGS) example10_softShadows\CMakeFiles\path_tracer.dir\Model.cpp.i
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : Model.cpp.i
 
 Model.s: Model.cpp.s
@@ -204,9 +204,9 @@ Model.s: Model.cpp.s
 
 # target to generate assembly for a file
 Model.cpp.s:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f example10_softShadows\CMakeFiles\path_tracer.dir\build.make /nologo -$(MAKEFLAGS) example10_softShadows\CMakeFiles\path_tracer.dir\Model.cpp.s
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : Model.cpp.s
 
 SampleRenderer.obj: SampleRenderer.cpp.obj
@@ -215,9 +215,9 @@ SampleRenderer.obj: SampleRenderer.cpp.obj
 
 # target to build an object file
 SampleRenderer.cpp.obj:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f example10_softShadows\CMakeFiles\path_tracer.dir\build.make /nologo -$(MAKEFLAGS) example10_softShadows\CMakeFiles\path_tracer.dir\SampleRenderer.cpp.obj
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : SampleRenderer.cpp.obj
 
 SampleRenderer.i: SampleRenderer.cpp.i
@@ -226,9 +226,9 @@ SampleRenderer.i: SampleRenderer.cpp.i
 
 # target to preprocess a source file
 SampleRenderer.cpp.i:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f example10_softShadows\CMakeFiles\path_tracer.dir\build.make /nologo -$(MAKEFLAGS) example10_softShadows\CMakeFiles\path_tracer.dir\SampleRenderer.cpp.i
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : SampleRenderer.cpp.i
 
 SampleRenderer.s: SampleRenderer.cpp.s
@@ -237,9 +237,9 @@ SampleRenderer.s: SampleRenderer.cpp.s
 
 # target to generate assembly for a file
 SampleRenderer.cpp.s:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f example10_softShadows\CMakeFiles\path_tracer.dir\build.make /nologo -$(MAKEFLAGS) example10_softShadows\CMakeFiles\path_tracer.dir\SampleRenderer.cpp.s
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : SampleRenderer.cpp.s
 
 cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.obj: cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.obj
@@ -248,9 +248,9 @@ cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.obj: cuda_compile_pt
 
 # target to build an object file
 cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.obj:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f example10_softShadows\CMakeFiles\path_tracer.dir\build.make /nologo -$(MAKEFLAGS) example10_softShadows\CMakeFiles\path_tracer.dir\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.obj
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.obj
 
 cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.i: cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.i
@@ -259,9 +259,9 @@ cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.i: cuda_compile_ptx_
 
 # target to preprocess a source file
 cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.i:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f example10_softShadows\CMakeFiles\path_tracer.dir\build.make /nologo -$(MAKEFLAGS) example10_softShadows\CMakeFiles\path_tracer.dir\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.i
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.i
 
 cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.s: cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.s
@@ -270,9 +270,9 @@ cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.s: cuda_compile_ptx_
 
 # target to generate assembly for a file
 cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.s:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f example10_softShadows\CMakeFiles\path_tracer.dir\build.make /nologo -$(MAKEFLAGS) example10_softShadows\CMakeFiles\path_tracer.dir\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.s
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.s
 
 main.obj: main.cpp.obj
@@ -281,9 +281,9 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f example10_softShadows\CMakeFiles\path_tracer.dir\build.make /nologo -$(MAKEFLAGS) example10_softShadows\CMakeFiles\path_tracer.dir\main.cpp.obj
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -292,9 +292,9 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f example10_softShadows\CMakeFiles\path_tracer.dir\build.make /nologo -$(MAKEFLAGS) example10_softShadows\CMakeFiles\path_tracer.dir\main.cpp.i
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -303,9 +303,9 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f example10_softShadows\CMakeFiles\path_tracer.dir\build.make /nologo -$(MAKEFLAGS) example10_softShadows\CMakeFiles\path_tracer.dir\main.cpp.s
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : main.cpp.s
 
 # Help Target
@@ -343,8 +343,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 .PHONY : cmake_check_build_system
 

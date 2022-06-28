@@ -51,10 +51,10 @@ RM = "E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Codes\Optix\optix7PT_codeBase\optix7course-master
+CMAKE_SOURCE_DIR = D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+CMAKE_BINARY_DIR = D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -117,18 +117,18 @@ list_install_components\fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip\\CMakeFiles\progress.marks
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) common\3rdParty\clip\all
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles 0
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) common\3rdParty\clip\clean
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 .PHONY : clean
 
 # The main clean target
@@ -138,30 +138,30 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) common\3rdParty\clip\preinstall
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) common\3rdParty\clip\preinstall
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 .PHONY : depend
 
 # Convenience name for target.
 common\3rdParty\clip\CMakeFiles\clip.dir\rule:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) common\3rdParty\clip\CMakeFiles\clip.dir\rule
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 .PHONY : common\3rdParty\clip\CMakeFiles\clip.dir\rule
 
 # Convenience name for target.
@@ -171,9 +171,9 @@ clip: common\3rdParty\clip\CMakeFiles\clip.dir\rule
 
 # fast build rule for target.
 clip\fast:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\3rdParty\clip\CMakeFiles\clip.dir\build.make /nologo -$(MAKEFLAGS) common\3rdParty\clip\CMakeFiles\clip.dir\build
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 .PHONY : clip\fast
 
 clip.obj: clip.cpp.obj
@@ -182,9 +182,9 @@ clip.obj: clip.cpp.obj
 
 # target to build an object file
 clip.cpp.obj:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\3rdParty\clip\CMakeFiles\clip.dir\build.make /nologo -$(MAKEFLAGS) common\3rdParty\clip\CMakeFiles\clip.dir\clip.cpp.obj
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 .PHONY : clip.cpp.obj
 
 clip.i: clip.cpp.i
@@ -193,9 +193,9 @@ clip.i: clip.cpp.i
 
 # target to preprocess a source file
 clip.cpp.i:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\3rdParty\clip\CMakeFiles\clip.dir\build.make /nologo -$(MAKEFLAGS) common\3rdParty\clip\CMakeFiles\clip.dir\clip.cpp.i
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 .PHONY : clip.cpp.i
 
 clip.s: clip.cpp.s
@@ -204,9 +204,9 @@ clip.s: clip.cpp.s
 
 # target to generate assembly for a file
 clip.cpp.s:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\3rdParty\clip\CMakeFiles\clip.dir\build.make /nologo -$(MAKEFLAGS) common\3rdParty\clip\CMakeFiles\clip.dir\clip.cpp.s
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 .PHONY : clip.cpp.s
 
 clip_win.obj: clip_win.cpp.obj
@@ -215,9 +215,9 @@ clip_win.obj: clip_win.cpp.obj
 
 # target to build an object file
 clip_win.cpp.obj:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\3rdParty\clip\CMakeFiles\clip.dir\build.make /nologo -$(MAKEFLAGS) common\3rdParty\clip\CMakeFiles\clip.dir\clip_win.cpp.obj
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 .PHONY : clip_win.cpp.obj
 
 clip_win.i: clip_win.cpp.i
@@ -226,9 +226,9 @@ clip_win.i: clip_win.cpp.i
 
 # target to preprocess a source file
 clip_win.cpp.i:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\3rdParty\clip\CMakeFiles\clip.dir\build.make /nologo -$(MAKEFLAGS) common\3rdParty\clip\CMakeFiles\clip.dir\clip_win.cpp.i
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 .PHONY : clip_win.cpp.i
 
 clip_win.s: clip_win.cpp.s
@@ -237,9 +237,9 @@ clip_win.s: clip_win.cpp.s
 
 # target to generate assembly for a file
 clip_win.cpp.s:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\3rdParty\clip\CMakeFiles\clip.dir\build.make /nologo -$(MAKEFLAGS) common\3rdParty\clip\CMakeFiles\clip.dir\clip_win.cpp.s
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 .PHONY : clip_win.cpp.s
 
 image.obj: image.cpp.obj
@@ -248,9 +248,9 @@ image.obj: image.cpp.obj
 
 # target to build an object file
 image.cpp.obj:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\3rdParty\clip\CMakeFiles\clip.dir\build.make /nologo -$(MAKEFLAGS) common\3rdParty\clip\CMakeFiles\clip.dir\image.cpp.obj
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 .PHONY : image.cpp.obj
 
 image.i: image.cpp.i
@@ -259,9 +259,9 @@ image.i: image.cpp.i
 
 # target to preprocess a source file
 image.cpp.i:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\3rdParty\clip\CMakeFiles\clip.dir\build.make /nologo -$(MAKEFLAGS) common\3rdParty\clip\CMakeFiles\clip.dir\image.cpp.i
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 .PHONY : image.cpp.i
 
 image.s: image.cpp.s
@@ -270,9 +270,9 @@ image.s: image.cpp.s
 
 # target to generate assembly for a file
 image.cpp.s:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\3rdParty\clip\CMakeFiles\clip.dir\build.make /nologo -$(MAKEFLAGS) common\3rdParty\clip\CMakeFiles\clip.dir\image.cpp.s
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 .PHONY : image.cpp.s
 
 # Help Target
@@ -307,8 +307,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 .PHONY : cmake_check_build_system
 

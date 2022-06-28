@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/example10_softShadows/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c" "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/example10_softShadows/CMakeFiles/path_tracer.dir/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.obj"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/example10_softShadows/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c" "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/example10_softShadows/CMakeFiles/path_tracer.dir/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 
@@ -30,9 +30,9 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../example10_softShadows/../common/3rdParty"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/example10_softShadows/Model.cpp" "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/example10_softShadows/CMakeFiles/path_tracer.dir/Model.cpp.obj"
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/example10_softShadows/SampleRenderer.cpp" "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/example10_softShadows/CMakeFiles/path_tracer.dir/SampleRenderer.cpp.obj"
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/example10_softShadows/main.cpp" "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/example10_softShadows/CMakeFiles/path_tracer.dir/main.cpp.obj"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/example10_softShadows/Model.cpp" "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/example10_softShadows/CMakeFiles/path_tracer.dir/Model.cpp.obj"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/example10_softShadows/SampleRenderer.cpp" "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/example10_softShadows/CMakeFiles/path_tracer.dir/SampleRenderer.cpp.obj"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/example10_softShadows/main.cpp" "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/example10_softShadows/CMakeFiles/path_tracer.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
@@ -59,10 +59,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/gdt/CMakeFiles/gdt.dir/DependInfo.cmake"
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/glfWindow/CMakeFiles/glfWindow.dir/DependInfo.cmake"
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/3rdParty/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/3rdParty/clip/CMakeFiles/clip.dir/DependInfo.cmake"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/gdt/CMakeFiles/gdt.dir/DependInfo.cmake"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/glfWindow/CMakeFiles/glfWindow.dir/DependInfo.cmake"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/3rdParty/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/3rdParty/clip/CMakeFiles/clip.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

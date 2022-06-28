@@ -46,10 +46,10 @@ RM = "E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Codes\Optix\optix7PT_codeBase\optix7course-master
+CMAKE_SOURCE_DIR = D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+CMAKE_BINARY_DIR = D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 # Include any dependencies generated for this target.
 include common\3rdParty\clip\CMakeFiles\clip.dir\depend.make
@@ -62,78 +62,78 @@ include common\3rdParty\clip\CMakeFiles\clip.dir\flags.make
 
 common\3rdParty\clip\CMakeFiles\clip.dir\clip.cpp.obj: common\3rdParty\clip\CMakeFiles\clip.dir\flags.make
 common\3rdParty\clip\CMakeFiles\clip.dir\clip.cpp.obj: ..\common\3rdParty\clip\clip.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object common/3rdParty/clip/CMakeFiles/clip.dir/clip.cpp.obj"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object common/3rdParty/clip/CMakeFiles/clip.dir/clip.cpp.obj"
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\clip.dir\clip.cpp.obj /FdCMakeFiles\clip.dir\clip.pdb /FS -c D:\Codes\Optix\optix7PT_codeBase\optix7course-master\common\3rdParty\clip\clip.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\clip.dir\clip.cpp.obj /FdCMakeFiles\clip.dir\clip.pdb /FS -c D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\common\3rdParty\clip\clip.cpp
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 common\3rdParty\clip\CMakeFiles\clip.dir\clip.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clip.dir/clip.cpp.i"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe > CMakeFiles\clip.dir\clip.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\Optix\optix7PT_codeBase\optix7course-master\common\3rdParty\clip\clip.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\common\3rdParty\clip\clip.cpp
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 common\3rdParty\clip\CMakeFiles\clip.dir\clip.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clip.dir/clip.cpp.s"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\clip.dir\clip.cpp.s /c D:\Codes\Optix\optix7PT_codeBase\optix7course-master\common\3rdParty\clip\clip.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\clip.dir\clip.cpp.s /c D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\common\3rdParty\clip\clip.cpp
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 common\3rdParty\clip\CMakeFiles\clip.dir\image.cpp.obj: common\3rdParty\clip\CMakeFiles\clip.dir\flags.make
 common\3rdParty\clip\CMakeFiles\clip.dir\image.cpp.obj: ..\common\3rdParty\clip\image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object common/3rdParty/clip/CMakeFiles/clip.dir/image.cpp.obj"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object common/3rdParty/clip/CMakeFiles/clip.dir/image.cpp.obj"
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\clip.dir\image.cpp.obj /FdCMakeFiles\clip.dir\clip.pdb /FS -c D:\Codes\Optix\optix7PT_codeBase\optix7course-master\common\3rdParty\clip\image.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\clip.dir\image.cpp.obj /FdCMakeFiles\clip.dir\clip.pdb /FS -c D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\common\3rdParty\clip\image.cpp
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 common\3rdParty\clip\CMakeFiles\clip.dir\image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clip.dir/image.cpp.i"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe > CMakeFiles\clip.dir\image.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\Optix\optix7PT_codeBase\optix7course-master\common\3rdParty\clip\image.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\common\3rdParty\clip\image.cpp
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 common\3rdParty\clip\CMakeFiles\clip.dir\image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clip.dir/image.cpp.s"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\clip.dir\image.cpp.s /c D:\Codes\Optix\optix7PT_codeBase\optix7course-master\common\3rdParty\clip\image.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\clip.dir\image.cpp.s /c D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\common\3rdParty\clip\image.cpp
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 common\3rdParty\clip\CMakeFiles\clip.dir\clip_win.cpp.obj: common\3rdParty\clip\CMakeFiles\clip.dir\flags.make
 common\3rdParty\clip\CMakeFiles\clip.dir\clip_win.cpp.obj: ..\common\3rdParty\clip\clip_win.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object common/3rdParty/clip/CMakeFiles/clip.dir/clip_win.cpp.obj"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object common/3rdParty/clip/CMakeFiles/clip.dir/clip_win.cpp.obj"
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\clip.dir\clip_win.cpp.obj /FdCMakeFiles\clip.dir\clip.pdb /FS -c D:\Codes\Optix\optix7PT_codeBase\optix7course-master\common\3rdParty\clip\clip_win.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\clip.dir\clip_win.cpp.obj /FdCMakeFiles\clip.dir\clip.pdb /FS -c D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\common\3rdParty\clip\clip_win.cpp
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 common\3rdParty\clip\CMakeFiles\clip.dir\clip_win.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clip.dir/clip_win.cpp.i"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe > CMakeFiles\clip.dir\clip_win.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\Optix\optix7PT_codeBase\optix7course-master\common\3rdParty\clip\clip_win.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\common\3rdParty\clip\clip_win.cpp
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 common\3rdParty\clip\CMakeFiles\clip.dir\clip_win.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clip.dir/clip_win.cpp.s"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\clip.dir\clip_win.cpp.s /c D:\Codes\Optix\optix7PT_codeBase\optix7course-master\common\3rdParty\clip\clip_win.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\clip.dir\clip_win.cpp.s /c D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\common\3rdParty\clip\clip_win.cpp
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 # Object files for target clip
 clip_OBJECTS = \
@@ -149,13 +149,13 @@ clip.lib: common\3rdParty\clip\CMakeFiles\clip.dir\image.cpp.obj
 clip.lib: common\3rdParty\clip\CMakeFiles\clip.dir\clip_win.cpp.obj
 clip.lib: common\3rdParty\clip\CMakeFiles\clip.dir\build.make
 clip.lib: common\3rdParty\clip\CMakeFiles\clip.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ..\..\..\clip.lib"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ..\..\..\clip.lib"
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 	$(CMAKE_COMMAND) -P CMakeFiles\clip.dir\cmake_clean_target.cmake
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\lib.exe /nologo /machine:x64 /out:..\..\..\clip.lib @CMakeFiles\clip.dir\objects1.rsp 
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 # Rule to build all files generated by this target.
 common\3rdParty\clip\CMakeFiles\clip.dir\build: clip.lib
@@ -163,12 +163,12 @@ common\3rdParty\clip\CMakeFiles\clip.dir\build: clip.lib
 .PHONY : common\3rdParty\clip\CMakeFiles\clip.dir\build
 
 common\3rdParty\clip\CMakeFiles\clip.dir\clean:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip
 	$(CMAKE_COMMAND) -P CMakeFiles\clip.dir\cmake_clean.cmake
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 .PHONY : common\3rdParty\clip\CMakeFiles\clip.dir\clean
 
 common\3rdParty\clip\CMakeFiles\clip.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Codes\Optix\optix7PT_codeBase\optix7course-master D:\Codes\Optix\optix7PT_codeBase\optix7course-master\common\3rdParty\clip D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\clip\CMakeFiles\clip.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\common\3rdParty\clip D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\clip\CMakeFiles\clip.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : common\3rdParty\clip\CMakeFiles\clip.dir\depend
 

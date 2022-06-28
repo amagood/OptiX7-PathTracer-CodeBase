@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/3rdParty/glfw/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/3rdParty/glfw/install_manifest.txt\"")
+if (NOT EXISTS "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/3rdParty/glfw/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/3rdParty/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/3rdParty/glfw/install_manifest.txt" files)
+file(READ "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/3rdParty/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

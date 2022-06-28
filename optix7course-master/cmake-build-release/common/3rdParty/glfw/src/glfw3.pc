@@ -1,7 +1,7 @@
-prefix=C:/Program Files (x86)/optix7course
+prefix=C:/Program Files (x86)/optix7pathTracerCodeBase
 exec_prefix=${prefix}
-includedir=C:/Program Files (x86)/optix7course/include
-libdir=C:/Program Files (x86)/optix7course/lib
+includedir=C:/Program Files (x86)/optix7pathTracerCodeBase/include
+libdir=C:/Program Files (x86)/optix7pathTracerCodeBase/lib
 
 Name: GLFW
 Description: A multi-platform library for OpenGL, window and input

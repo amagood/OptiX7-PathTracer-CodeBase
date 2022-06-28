@@ -46,10 +46,10 @@ RM = "E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Codes\Optix\optix7PT_codeBase\optix7course-master
+CMAKE_SOURCE_DIR = D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+CMAKE_BINARY_DIR = D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 # Utility rule file for uninstall.
 
@@ -57,9 +57,9 @@ CMAKE_BINARY_DIR = D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-bu
 include common\3rdParty\glfw\CMakeFiles\uninstall.dir\progress.make
 
 common\3rdParty\glfw\CMakeFiles\uninstall:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\glfw
-	echo >nul && "E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/3rdParty/glfw/cmake_uninstall.cmake
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\glfw
+	echo >nul && "E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/3rdParty/glfw/cmake_uninstall.cmake
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 uninstall: common\3rdParty\glfw\CMakeFiles\uninstall
 uninstall: common\3rdParty\glfw\CMakeFiles\uninstall.dir\build.make
@@ -72,12 +72,12 @@ common\3rdParty\glfw\CMakeFiles\uninstall.dir\build: uninstall
 .PHONY : common\3rdParty\glfw\CMakeFiles\uninstall.dir\build
 
 common\3rdParty\glfw\CMakeFiles\uninstall.dir\clean:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\glfw
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\glfw
 	$(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 .PHONY : common\3rdParty\glfw\CMakeFiles\uninstall.dir\clean
 
 common\3rdParty\glfw\CMakeFiles\uninstall.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Codes\Optix\optix7PT_codeBase\optix7course-master D:\Codes\Optix\optix7PT_codeBase\optix7course-master\common\3rdParty\glfw D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\glfw D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\glfw\CMakeFiles\uninstall.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\common\3rdParty\glfw D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\glfw D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\glfw\CMakeFiles\uninstall.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : common\3rdParty\glfw\CMakeFiles\uninstall.dir\depend
 

@@ -44,7 +44,7 @@
 /*! \namespace osc - Optix Siggraph Course */
 namespace osc
 {
-
+    static bool pause = false;
     struct SampleWindow : public GLFCameraWindow
     {
         SampleWindow(const std::string &title,
@@ -60,14 +60,17 @@ namespace osc
 
         virtual void render() override
         {
-            if (cameraFrame.modified)
+            if(!pause)
             {
-                sample.setCamera(Camera{cameraFrame.get_from(),
-                                        cameraFrame.get_at(),
-                                        cameraFrame.get_up()});
-                cameraFrame.modified = false;
+                if (cameraFrame.modified)
+                {
+                    sample.setCamera(Camera{cameraFrame.get_from(),
+                                            cameraFrame.get_at(),
+                                            cameraFrame.get_up()});
+                    cameraFrame.modified = false;
+                }
+                sample.render();
             }
-            sample.render();
         }
 
         virtual void imgui() override
@@ -84,6 +87,8 @@ namespace osc
             ImGui::Text("Application %.3f ms/frame (%.1f FPS)", ImGui::GetIO().DeltaTime * 1000.f, 1.f / ImGui::GetIO().DeltaTime);
             ImGui::Text("Average of 120Frame %.3f ms/frame (%.1f FPS)", 1000.f/ImGui::GetIO().Framerate, ImGui::GetIO().Framerate);
             ImGui::Text("Camera: position: (%f,%f,%f), at(%f,%f,%f)", cameraFrame.get_from().x, cameraFrame.get_from().y, cameraFrame.get_from().z, cameraFrame.get_at().x, cameraFrame.get_at().y, cameraFrame.get_at().z);
+
+            ImGui::SliderInt("spp per frame", &sample.getLaunchParams()->numPixelSamples, 1, 1000);
             if(ImGui::Button("Save Image"))
             {
                 std::vector<float> AccuPixels(fbSize.x * 3 * fbSize.y, 0);
@@ -117,7 +122,10 @@ namespace osc
                 const clip::image img(pixels.data(), spec);
                 clip::set_image(img);
             }
-
+            if(ImGui::Button("Pause / play"))
+            {
+                pause = !pause;
+            }
             ImGui::End();
 
 #ifdef AutoSaveImageAtNthFrame

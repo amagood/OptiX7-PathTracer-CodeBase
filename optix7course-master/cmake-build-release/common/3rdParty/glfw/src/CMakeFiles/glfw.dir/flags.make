@@ -4,7 +4,7 @@
 # compile C with E:/appdata/VS2019IDE/VC/Tools/MSVC/14.29.30037/bin/Hostx64/x64/cl.exe
 C_DEFINES = -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__=1
 
-C_INCLUDES = -IC:\PROGRA~1\NVIDIA~2\CUDA\v11.2\include -ID:\Codes\Optix\Optix7.4\include -ID:\Codes\Optix\optix7PT_codeBase\optix7course-master\common\gdt -ID:\Codes\Optix\optix7PT_codeBase\optix7course-master\common\3rdParty\glfw\include -ID:\Codes\Optix\optix7PT_codeBase\optix7course-master\common\3rdParty\glfw\src -ID:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\3rdParty\glfw\src
+C_INCLUDES = -IC:\PROGRA~1\NVIDIA~2\CUDA\v11.2\include -ID:\Codes\Optix\Optix7.4\include -ID:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\common\gdt -ID:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\common\3rdParty\glfw\include -ID:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\common\3rdParty\glfw\src -ID:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\3rdParty\glfw\src
 
 C_FLAGS = /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG
 

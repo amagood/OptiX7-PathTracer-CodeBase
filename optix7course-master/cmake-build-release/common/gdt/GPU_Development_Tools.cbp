@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;CMake Files\common\;CMake Files\common\3rdParty\;CMake Files\common\3rdParty\glfw\;CMake Files\common\3rdParty\glfw\src\;CMake Files\common\3rdParty\clip\;CMake Files\common\gdt\;CMake Files\common\gdt\cmake\;CMake Files\common\glfWindow\;CMake Files\example10_softShadows\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/gdt"/>
+				<Option working_dir="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/gdt"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gdt">
-				<Option output="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/gdt.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/gdt"/>
+				<Option output="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/gdt.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/gdt"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
@@ -28,7 +28,7 @@
 					<Add option="-D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__=1"/>
 					<Add directory="C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/include"/>
 					<Add directory="D:/Codes/Optix/Optix7.4/include"/>
-					<Add directory="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt"/>
+					<Add directory="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt"/>
 					<Add directory="E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
 					<Add directory="E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\include"/>
 					<Add directory="E:\Windows Kits\10\include\10.0.19041.0\ucrt"/>
@@ -38,15 +38,15 @@
 					<Add directory="E:\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 gdt"/>
-					<CompileFile command="nmake /NOLOGO /f D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 gdt"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gdt/fast">
-				<Option output="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/gdt.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/gdt"/>
+				<Option output="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/gdt.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/gdt"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
@@ -55,7 +55,7 @@
 					<Add option="-D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__=1"/>
 					<Add directory="C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/include"/>
 					<Add directory="D:/Codes/Optix/Optix7.4/include"/>
-					<Add directory="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt"/>
+					<Add directory="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt"/>
 					<Add directory="E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
 					<Add directory="E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\include"/>
 					<Add directory="E:\Windows Kits\10\include\10.0.19041.0\ucrt"/>
@@ -65,74 +65,74 @@
 					<Add directory="E:\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 gdt/fast"/>
-					<CompileFile command="nmake /NOLOGO /f D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 gdt/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/cmake/FindOptiX.cmake">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/cmake/FindOptiX.cmake">
 			<Option target="gdt"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/cmake/configure_build_type.cmake">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/cmake/configure_build_type.cmake">
 			<Option target="gdt"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/cmake/configure_optix.cmake">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/cmake/configure_optix.cmake">
 			<Option target="gdt"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/gdt/gdt.cpp">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/gdt/gdt.cpp">
 			<Option target="gdt"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/gdt/gdt.h">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/gdt/gdt.h">
 			<Option target="gdt"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/gdt/math/AffineSpace.h">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/gdt/math/AffineSpace.h">
 			<Option target="gdt"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/gdt/math/LinearSpace.h">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/gdt/math/LinearSpace.h">
 			<Option target="gdt"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/CMakeLists.txt">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/3rdParty/glfw/CMakeLists.txt">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/3rdParty/glfw/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\common\3rdParty\glfw\"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/3rdParty/glfw/cmake_uninstall.cmake.in">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/3rdParty/glfw/cmake_uninstall.cmake.in">
 			<Option virtualFolder="CMake Files\common\3rdParty\glfw\"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/3rdParty/glfw/src/CMakeLists.txt">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/3rdParty/glfw/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\common\3rdParty\glfw\src\"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/3rdParty/glfw/src/glfw3.pc.in">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/3rdParty/glfw/src/glfw3.pc.in">
 			<Option virtualFolder="CMake Files\common\3rdParty\glfw\src\"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/3rdParty/glfw/src/glfw3Config.cmake.in">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/3rdParty/glfw/src/glfw3Config.cmake.in">
 			<Option virtualFolder="CMake Files\common\3rdParty\glfw\src\"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/3rdParty/glfw/src/glfw_config.h.in">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/3rdParty/glfw/src/glfw_config.h.in">
 			<Option virtualFolder="CMake Files\common\3rdParty\glfw\src\"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/3rdParty/clip/CMakeLists.txt">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/3rdParty/clip/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\common\3rdParty\clip\"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/CMakeLists.txt">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\common\gdt\"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/cmake/FindOptiX.cmake">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/cmake/FindOptiX.cmake">
 			<Option virtualFolder="CMake Files\common\gdt\cmake\"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/cmake/configure_build_type.cmake">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/cmake/configure_build_type.cmake">
 			<Option virtualFolder="CMake Files\common\gdt\cmake\"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/cmake/configure_optix.cmake">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/cmake/configure_optix.cmake">
 			<Option virtualFolder="CMake Files\common\gdt\cmake\"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/glfWindow/CMakeLists.txt">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/glfWindow/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\common\glfWindow\"/>
 		</Unit>
-		<Unit filename="D:/Codes/Optix/optix7PT_codeBase/optix7course-master/example10_softShadows/CMakeLists.txt">
+		<Unit filename="D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/example10_softShadows/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\example10_softShadows\"/>
 		</Unit>
 	</Project>

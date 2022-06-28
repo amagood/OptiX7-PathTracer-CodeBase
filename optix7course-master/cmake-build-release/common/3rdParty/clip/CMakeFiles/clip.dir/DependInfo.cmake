@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/3rdParty/clip/clip.cpp" "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/3rdParty/clip/CMakeFiles/clip.dir/clip.cpp.obj"
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/3rdParty/clip/clip_win.cpp" "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/3rdParty/clip/CMakeFiles/clip.dir/clip_win.cpp.obj"
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/3rdParty/clip/image.cpp" "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/3rdParty/clip/CMakeFiles/clip.dir/image.cpp.obj"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/3rdParty/clip/clip.cpp" "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/3rdParty/clip/CMakeFiles/clip.dir/clip.cpp.obj"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/3rdParty/clip/clip_win.cpp" "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/3rdParty/clip/CMakeFiles/clip.dir/clip_win.cpp.obj"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/3rdParty/clip/image.cpp" "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/3rdParty/clip/CMakeFiles/clip.dir/image.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

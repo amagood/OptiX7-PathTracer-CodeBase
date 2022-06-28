@@ -1,8 +1,8 @@
-# Install script for directory: D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/3rdParty/clip
+# Install script for directory: D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/3rdParty/clip
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/optix7course")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/optix7pathTracerCodeBase")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

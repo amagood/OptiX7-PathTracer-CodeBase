@@ -62,7 +62,8 @@ namespace osc {
     struct {
       vec3f origin, du, dv, power;
     } light;
-    
+
+      int numPixelSamples;
     OptixTraversableHandle traversable;
   };
 

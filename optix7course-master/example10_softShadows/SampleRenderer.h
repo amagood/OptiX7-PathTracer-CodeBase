@@ -64,6 +64,8 @@ namespace osc {
     void setCamera(const Camera &camera);
 
     int getAccumID();
+
+      LaunchParams *getLaunchParams();
   protected:
     // ------------------------------------------------------------------
     // internal helper functions

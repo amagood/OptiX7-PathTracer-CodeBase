@@ -6,13 +6,13 @@ common/gdt/CMakeFiles/gdt.dir/gdt/gdt.cpp.obj
  ../common/gdt/gdt/math/constants.h
  ../common/gdt/gdt/math/vec.h
  C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/include/math_constants.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/gdt/gdt.cpp
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/gdt/gdt.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/gdt/math/AffineSpace.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/gdt/math/LinearSpace.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/gdt/math/Quaternion.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/gdt/math/box.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/gdt/math/vec.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/gdt/math/vec/compare.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/gdt/math/vec/functors.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/gdt/math/vec/rotate.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/gdt/gdt.cpp
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/gdt/gdt.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/gdt/math/AffineSpace.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/gdt/math/LinearSpace.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/gdt/math/Quaternion.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/gdt/math/box.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/gdt/math/vec.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/gdt/math/vec/compare.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/gdt/math/vec/functors.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/gdt/math/vec/rotate.h

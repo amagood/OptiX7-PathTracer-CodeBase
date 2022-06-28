@@ -19,49 +19,49 @@ common/glfWindow/CMakeFiles/glfWindow.dir/GLFWindow.cpp.obj
  ../common/imgui/imconfig.h
  ../common/imgui/imgui.h
  C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/include/math_constants.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/glfWindow/GLFWindow.cpp
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/glfWindow/GLFWindow.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/glfWindow/GLFWindow.cpp
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/glfWindow/GLFWindow.h
 common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/backends/imgui_impl_glfw.cpp.obj
  ../common/3rdParty/glfw/include/GLFW/glfw3.h
  ../common/3rdParty/glfw/include/GLFW/glfw3native.h
  ../common/imgui/imconfig.h
  ../common/imgui/imgui.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui_impl_glfw.cpp
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui_impl_glfw.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui_impl_glfw.cpp
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui_impl_glfw.h
 common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/backends/imgui_impl_opengl3.cpp.obj
  ../common/imgui/imconfig.h
  ../common/imgui/imgui.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui_impl_opengl3.cpp
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui_impl_opengl3.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui_impl_opengl3_loader.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui_impl_opengl3.cpp
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui_impl_opengl3.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui_impl_opengl3_loader.h
 common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/imgui.cpp.obj
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imconfig.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui.cpp
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_internal.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imstb_textedit.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imconfig.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui.cpp
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_internal.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imstb_textedit.h
 common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/imgui_demo.cpp.obj
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imconfig.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_demo.cpp
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imconfig.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_demo.cpp
 common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/imgui_draw.cpp.obj
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imconfig.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_draw.cpp
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_internal.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imstb_rectpack.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imstb_textedit.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imstb_truetype.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/misc/freetype/imgui_freetype.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imconfig.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_draw.cpp
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_internal.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imstb_rectpack.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imstb_textedit.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imstb_truetype.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/misc/freetype/imgui_freetype.h
 common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/imgui_tables.cpp.obj
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imconfig.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_internal.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_tables.cpp
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imstb_textedit.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imconfig.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_internal.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_tables.cpp
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imstb_textedit.h
 common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/imgui_widgets.cpp.obj
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imconfig.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_internal.h
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_widgets.cpp
- D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imstb_textedit.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imconfig.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_internal.h
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_widgets.cpp
+ D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imstb_textedit.h

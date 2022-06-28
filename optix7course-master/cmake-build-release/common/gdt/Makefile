@@ -51,10 +51,10 @@ RM = "E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Codes\Optix\optix7PT_codeBase\optix7course-master
+CMAKE_SOURCE_DIR = D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+CMAKE_BINARY_DIR = D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -117,18 +117,18 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt\\CMakeFiles\progress.marks
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) common\gdt\all
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles 0
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) common\gdt\clean
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt
 .PHONY : clean
 
 # The main clean target
@@ -138,30 +138,30 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) common\gdt\preinstall
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) common\gdt\preinstall
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt
 .PHONY : depend
 
 # Convenience name for target.
 common\gdt\CMakeFiles\gdt.dir\rule:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) common\gdt\CMakeFiles\gdt.dir\rule
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt
 .PHONY : common\gdt\CMakeFiles\gdt.dir\rule
 
 # Convenience name for target.
@@ -171,9 +171,9 @@ gdt: common\gdt\CMakeFiles\gdt.dir\rule
 
 # fast build rule for target.
 gdt\fast:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\gdt\CMakeFiles\gdt.dir\build.make /nologo -$(MAKEFLAGS) common\gdt\CMakeFiles\gdt.dir\build
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt
 .PHONY : gdt\fast
 
 gdt\gdt.obj: gdt\gdt.cpp.obj
@@ -182,9 +182,9 @@ gdt\gdt.obj: gdt\gdt.cpp.obj
 
 # target to build an object file
 gdt\gdt.cpp.obj:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\gdt\CMakeFiles\gdt.dir\build.make /nologo -$(MAKEFLAGS) common\gdt\CMakeFiles\gdt.dir\gdt\gdt.cpp.obj
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt
 .PHONY : gdt\gdt.cpp.obj
 
 gdt\gdt.i: gdt\gdt.cpp.i
@@ -193,9 +193,9 @@ gdt\gdt.i: gdt\gdt.cpp.i
 
 # target to preprocess a source file
 gdt\gdt.cpp.i:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\gdt\CMakeFiles\gdt.dir\build.make /nologo -$(MAKEFLAGS) common\gdt\CMakeFiles\gdt.dir\gdt\gdt.cpp.i
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt
 .PHONY : gdt\gdt.cpp.i
 
 gdt\gdt.s: gdt\gdt.cpp.s
@@ -204,9 +204,9 @@ gdt\gdt.s: gdt\gdt.cpp.s
 
 # target to generate assembly for a file
 gdt\gdt.cpp.s:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\gdt\CMakeFiles\gdt.dir\build.make /nologo -$(MAKEFLAGS) common\gdt\CMakeFiles\gdt.dir\gdt\gdt.cpp.s
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt
 .PHONY : gdt\gdt.cpp.s
 
 # Help Target
@@ -235,8 +235,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\gdt
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\gdt
 .PHONY : cmake_check_build_system
 

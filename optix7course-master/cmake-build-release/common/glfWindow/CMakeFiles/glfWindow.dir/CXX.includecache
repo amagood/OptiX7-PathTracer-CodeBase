@@ -200,43 +200,43 @@ imgui_user.h
 
 C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/include/math_constants.h
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/glfWindow/GLFWindow.cpp
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/glfWindow/GLFWindow.cpp
 GL/glew.h
 -
 GLFWindow.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/glfWindow/GLFWindow.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/glfWindow/GLFWindow.h
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/glfWindow/GLFWindow.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/glfWindow/GLFWindow.h
 gdt/math/AffineSpace.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/glfWindow/gdt/math/AffineSpace.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/glfWindow/gdt/math/AffineSpace.h
 GLFW/glfw3.h
 -
 imgui.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/glfWindow/imgui.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/glfWindow/imgui.h
 imgui_impl_glfw.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/glfWindow/imgui_impl_glfw.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/glfWindow/imgui_impl_glfw.h
 imgui_impl_opengl3.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/glfWindow/imgui_impl_opengl3.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/glfWindow/imgui_impl_opengl3.h
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui_impl_glfw.cpp
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui_impl_glfw.cpp
 imgui.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui.h
 imgui_impl_glfw.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui_impl_glfw.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui_impl_glfw.h
 GLFW/glfw3.h
 -
 GLFW/glfw3native.h
 -
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui_impl_glfw.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui_impl_glfw.h
 imgui.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui.h
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui_impl_opengl3.cpp
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui_impl_opengl3.cpp
 imgui.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui.h
 imgui_impl_opengl3.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui_impl_opengl3.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui_impl_opengl3.h
 stdio.h
 -
 stddef.h
@@ -256,15 +256,15 @@ OpenGLES/ES3/gl.h
 GLES3/gl3.h
 -
 imgui_impl_opengl3_loader.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui_impl_opengl3_loader.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui_impl_opengl3_loader.h
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui_impl_opengl3.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui_impl_opengl3.h
 imgui.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui.h
 TargetConditionals.h
 -
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui_impl_opengl3_loader.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui_impl_opengl3_loader.h
 stdint.h
 -
 windows.h
@@ -278,13 +278,13 @@ dlfcn.h
 dlfcn.h
 -
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imconfig.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imconfig.h
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui.cpp
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui.cpp
 imgui.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui.h
 imgui_internal.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_internal.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_internal.h
 ctype.h
 -
 stdio.h
@@ -300,17 +300,17 @@ windows.h
 TargetConditionals.h
 -
 stb_sprintf.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/stb_sprintf.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/stb_sprintf.h
 Carbon/Carbon.h
 -
 imm.h
 -
 imgui_user.inl
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_user.inl
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_user.inl
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui.h
 imconfig.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imconfig.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imconfig.h
 float.h
 -
 stdarg.h
@@ -322,11 +322,11 @@ string.h
 assert.h
 -
 imgui_user.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_user.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_user.h
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_demo.cpp
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_demo.cpp
 imgui.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui.h
 ctype.h
 -
 limits.h
@@ -342,13 +342,13 @@ stddef.h
 stdint.h
 -
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_draw.cpp
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_draw.cpp
 imgui.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui.h
 imgui_internal.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_internal.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_internal.h
 misc/freetype/imgui_freetype.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/misc/freetype/imgui_freetype.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/misc/freetype/imgui_freetype.h
 stdio.h
 -
 alloca.h
@@ -358,13 +358,13 @@ malloc.h
 stdlib.h
 -
 imstb_rectpack.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imstb_rectpack.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imstb_rectpack.h
 imstb_truetype.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imstb_truetype.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imstb_truetype.h
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_internal.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_internal.h
 imgui.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui.h
 stdio.h
 -
 stdlib.h
@@ -376,23 +376,23 @@ limits.h
 immintrin.h
 -
 imstb_textedit.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imstb_textedit.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imstb_textedit.h
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_tables.cpp
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_tables.cpp
 imgui.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui.h
 imgui_internal.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_internal.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_internal.h
 stddef.h
 -
 stdint.h
 -
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_widgets.cpp
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_widgets.cpp
 imgui.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui.h
 imgui_internal.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_internal.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_internal.h
 ctype.h
 -
 stddef.h
@@ -400,25 +400,25 @@ stddef.h
 stdint.h
 -
 imstb_textedit.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imstb_textedit.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imstb_textedit.h
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imstb_rectpack.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imstb_rectpack.h
 stdlib.h
 -
 assert.h
 -
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imstb_textedit.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imstb_textedit.h
 string.h
 -
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imstb_truetype.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imstb_truetype.h
 stb_truetype.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/stb_truetype.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/stb_truetype.h
 stdio.h
 -
 stb_truetype.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/stb_truetype.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/stb_truetype.h
 math.h
 -
 math.h
@@ -438,7 +438,7 @@ string.h
 string.h
 -
 
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/misc/freetype/imgui_freetype.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/misc/freetype/imgui_freetype.h
 imgui.h
-D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/misc/freetype/imgui.h
+D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/misc/freetype/imgui.h
 

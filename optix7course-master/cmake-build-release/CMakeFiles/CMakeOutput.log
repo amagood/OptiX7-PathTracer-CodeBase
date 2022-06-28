@@ -7,7 +7,7 @@ Id flags:
 The output was:
 0
 Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
-Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+Copyright (C) Microsoft Corporation.  All rights reserved.
 
 CMakeCCompilerId.c
 Microsoft (R) Incremental Linker Version 14.29.30038.1
@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: E:/appdata/VS2019IDE/VC/Tools/MSVC/14.29.30037/bin/Hostx64/x64/cl.exe 
@@ -31,7 +31,7 @@ Id flags:
 The output was:
 0
 Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
-Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+Copyright (C) Microsoft Corporation.  All rights reserved.
 
 CMakeCXXCompilerId.cpp
 Microsoft (R) Incremental Linker Version 14.29.30038.1
@@ -45,29 +45,29 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/CMakeFiles/CMakeTmp
+Change Dir: D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_58e5c\fast && 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_58e5c.dir\build.make /nologo -L                  CMakeFiles\cmTC_58e5c.dir\build
-Building C object CMakeFiles/cmTC_58e5c.dir/CMakeCCompilerABI.c.obj
-	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @C:\Users\amago\AppData\Local\Temp\nmFBCF.tmp
+Run Build Command(s):nmake /nologo cmTC_c4c11\fast && 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_c4c11.dir\build.make /nologo -L                  CMakeFiles\cmTC_c4c11.dir\build
+Building C object CMakeFiles/cmTC_c4c11.dir/CMakeCCompilerABI.c.obj
+	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @C:\Users\amago\AppData\Local\Temp\nm1395.tmp
 CMakeCCompilerABI.c
-Linking C executable cmTC_58e5c.exe
-	"E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_58e5c.dir --rc="E:\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe" --mt="E:\Windows Kits\10\bin\10.0.19041.0\x64\mt.exe" --manifests -- E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_58e5c.dir\objects1.rsp @C:\Users\amago\AppData\Local\Temp\nmFE6F.tmp
+Linking C executable cmTC_c4c11.exe
+	"E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_c4c11.dir --rc="E:\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe" --mt="E:\Windows Kits\10\bin\10.0.19041.0\x64\mt.exe" --manifests -- E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_c4c11.dir\objects1.rsp @C:\Users\amago\AppData\Local\Temp\nm1645.tmp
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/CMakeFiles/CMakeTmp
+Change Dir: D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_9cad3\fast && 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_9cad3.dir\build.make /nologo -L                  CMakeFiles\cmTC_9cad3.dir\build
-Building CXX object CMakeFiles/cmTC_9cad3.dir/CMakeCXXCompilerABI.cpp.obj
-	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @C:\Users\amago\AppData\Local\Temp\nm2F3.tmp
+Run Build Command(s):nmake /nologo cmTC_db470\fast && 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_db470.dir\build.make /nologo -L                  CMakeFiles\cmTC_db470.dir\build
+Building CXX object CMakeFiles/cmTC_db470.dir/CMakeCXXCompilerABI.cpp.obj
+	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @C:\Users\amago\AppData\Local\Temp\nm1CFB.tmp
 CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_9cad3.exe
-	"E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_9cad3.dir --rc="E:\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe" --mt="E:\Windows Kits\10\bin\10.0.19041.0\x64\mt.exe" --manifests -- E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_9cad3.dir\objects1.rsp @C:\Users\amago\AppData\Local\Temp\nm380.tmp
+Linking CXX executable cmTC_db470.exe
+	"E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_db470.dir --rc="E:\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe" --mt="E:\Windows Kits\10\bin\10.0.19041.0\x64\mt.exe" --manifests -- E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_db470.dir\objects1.rsp @C:\Users\amago\AppData\Local\Temp\nm1D79.tmp
 
 
 

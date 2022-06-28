@@ -58,24 +58,24 @@ endif()
 
 # Set these up as variables to make reading the generated file easier
 set(CMAKE_COMMAND "E:/appdata/CLION/CLion 2021.1.2/bin/cmake/win/bin/cmake.exe") # path
-set(source_file "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/example10_softShadows/devicePrograms.cu") # path
-set(NVCC_generated_dependency_file "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/example10_softShadows/CMakeFiles/cuda_compile_ptx_1.dir//cuda_compile_ptx_1_generated_devicePrograms.cu.ptx.NVCC-depend") # path
-set(cmake_dependency_file "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/example10_softShadows/CMakeFiles/cuda_compile_ptx_1.dir//cuda_compile_ptx_1_generated_devicePrograms.cu.ptx.depend") # path
+set(source_file "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/example10_softShadows/devicePrograms.cu") # path
+set(NVCC_generated_dependency_file "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/example10_softShadows/CMakeFiles/cuda_compile_ptx_1.dir//cuda_compile_ptx_1_generated_devicePrograms.cu.ptx.NVCC-depend") # path
+set(cmake_dependency_file "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/example10_softShadows/CMakeFiles/cuda_compile_ptx_1.dir//cuda_compile_ptx_1_generated_devicePrograms.cu.ptx.depend") # path
 set(CUDA_make2cmake "E:/appdata/CLION/CLion 2021.1.2/bin/cmake/win/share/cmake-3.19/Modules/FindCUDA/make2cmake.cmake") # path
 set(CUDA_parse_cubin "E:/appdata/CLION/CLion 2021.1.2/bin/cmake/win/share/cmake-3.19/Modules/FindCUDA/parse_cubin.cmake") # path
 set(build_cubin OFF) # bool
 set(CUDA_HOST_COMPILER "E:/appdata/VS2019IDE/VC/Tools/MSVC/14.29.30037/bin/Hostx64/x64/cl.exe") # path
 # We won't actually use these variables for now, but we need to set this, in
 # order to force this file to be run again if it changes.
-set(generated_file_path "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/example10_softShadows") # path
-set(generated_file_internal "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/example10_softShadows/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx") # path
-set(generated_cubin_file_internal "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/example10_softShadows/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx.cubin.txt") # path
+set(generated_file_path "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/example10_softShadows") # path
+set(generated_file_internal "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/example10_softShadows/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx") # path
+set(generated_cubin_file_internal "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/example10_softShadows/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx.cubin.txt") # path
 
 set(CUDA_NVCC_EXECUTABLE "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/bin/nvcc.exe") # path
 set(CUDA_NVCC_FLAGS  ;; --generate-line-info;-use_fast_math;--keep) # list
 
 set(nvcc_flags -m64) # list
-set(CUDA_NVCC_INCLUDE_DIRS [==[C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/include;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/include;D:/Codes/Optix/Optix7.4/include;D:/Codes/Optix/Optix7.4/include;D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt;D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/3rdParty/glfw/include;D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common;D:/Codes/Optix/optix7PT_codeBase/optix7course-master/./common/3rdParty/clip;D:/Codes/Optix/Optix7.4/include;D:/Codes/Optix/optix7PT_codeBase/optix7course-master/example10_softShadows/../common/imgui;D:/Codes/Optix/optix7PT_codeBase/optix7course-master/example10_softShadows/../common/GL;D:/Codes/Optix/optix7PT_codeBase/optix7course-master/example10_softShadows/../common/imgui/backends;D:/Codes/Optix/optix7PT_codeBase/optix7course-master/example10_softShadows/../common;D:/Codes/Optix/optix7PT_codeBase/optix7course-master/example10_softShadows/../common/3rdParty]==]) # list (needs to be in lua quotes to address backslashes)
+set(CUDA_NVCC_INCLUDE_DIRS [==[C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/include;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/include;D:/Codes/Optix/Optix7.4/include;D:/Codes/Optix/Optix7.4/include;D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt;D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/3rdParty/glfw/include;D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common;D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/./common/3rdParty/clip;D:/Codes/Optix/Optix7.4/include;D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/example10_softShadows/../common/imgui;D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/example10_softShadows/../common/GL;D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/example10_softShadows/../common/imgui/backends;D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/example10_softShadows/../common;D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/example10_softShadows/../common/3rdParty]==]) # list (needs to be in lua quotes to address backslashes)
 string(REPLACE "\\" "/" CUDA_NVCC_INCLUDE_DIRS "${CUDA_NVCC_INCLUDE_DIRS}")
 set(CUDA_NVCC_COMPILE_DEFINITIONS [==[NOMINMAX;__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__=1]==]) # list (needs to be in lua quotes see #16510 ).
 set(format_flag "-ptx") # string

@@ -46,10 +46,10 @@ RM = "E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Codes\Optix\optix7PT_codeBase\optix7course-master
+CMAKE_SOURCE_DIR = D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+CMAKE_BINARY_DIR = D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 # Include any dependencies generated for this target.
 include example10_softShadows\CMakeFiles\path_tracer.dir\depend.make
@@ -61,10 +61,10 @@ include example10_softShadows\CMakeFiles\path_tracer.dir\progress.make
 include example10_softShadows\CMakeFiles\path_tracer.dir\flags.make
 
 example10_softShadows\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c: example10_softShadows\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "compiling (and embedding ptx from) devicePrograms.cu"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
-	echo >nul && "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin\bin2c.exe" -c --padd 0 --type char --name embedded_ptx_code D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/example10_softShadows/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx > D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/example10_softShadows/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "compiling (and embedding ptx from) devicePrograms.cu"
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
+	echo >nul && "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin\bin2c.exe" -c --padd 0 --type char --name embedded_ptx_code D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/example10_softShadows/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx > D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/example10_softShadows/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 example10_softShadows\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx: "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include\builtin_types.h"
 example10_softShadows\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx: "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include\channel_descriptor.h"
@@ -335,111 +335,111 @@ example10_softShadows\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx: E:\app
 example10_softShadows\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx: E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\include\yvals_core.h
 example10_softShadows\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx: example10_softShadows\CMakeFiles\cuda_compile_ptx_1.dir\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx.Release.cmake
 example10_softShadows\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx: ..\example10_softShadows\devicePrograms.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building NVCC ptx file example10_softShadows/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows\CMakeFiles\cuda_compile_ptx_1.dir
-	echo >nul && "E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E make_directory D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/example10_softShadows
-	echo >nul && "E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/example10_softShadows/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx -D generated_cubin_file:STRING=D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/example10_softShadows/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx.cubin.txt -P D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/example10_softShadows/CMakeFiles/cuda_compile_ptx_1.dir//cuda_compile_ptx_1_generated_devicePrograms.cu.ptx.Release.cmake
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building NVCC ptx file example10_softShadows/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx"
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows\CMakeFiles\cuda_compile_ptx_1.dir
+	echo >nul && "E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E make_directory D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/example10_softShadows
+	echo >nul && "E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/example10_softShadows/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx -D generated_cubin_file:STRING=D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/example10_softShadows/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx.cubin.txt -P D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/example10_softShadows/CMakeFiles/cuda_compile_ptx_1.dir//cuda_compile_ptx_1_generated_devicePrograms.cu.ptx.Release.cmake
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 example10_softShadows\CMakeFiles\path_tracer.dir\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.obj: example10_softShadows\CMakeFiles\path_tracer.dir\flags.make
 example10_softShadows\CMakeFiles\path_tracer.dir\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.obj: example10_softShadows\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object example10_softShadows/CMakeFiles/path_tracer.dir/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.obj"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object example10_softShadows/CMakeFiles/path_tracer.dir/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.obj"
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\path_tracer.dir\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.obj /FdCMakeFiles\path_tracer.dir\ /FS -c D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\path_tracer.dir\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.obj /FdCMakeFiles\path_tracer.dir\ /FS -c D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 example10_softShadows\CMakeFiles\path_tracer.dir\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/path_tracer.dir/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.i"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe > CMakeFiles\path_tracer.dir\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 example10_softShadows\CMakeFiles\path_tracer.dir\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/path_tracer.dir/cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.s"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\path_tracer.dir\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.s /c D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\path_tracer.dir\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c.s /c D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 example10_softShadows\CMakeFiles\path_tracer.dir\SampleRenderer.cpp.obj: example10_softShadows\CMakeFiles\path_tracer.dir\flags.make
 example10_softShadows\CMakeFiles\path_tracer.dir\SampleRenderer.cpp.obj: ..\example10_softShadows\SampleRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object example10_softShadows/CMakeFiles/path_tracer.dir/SampleRenderer.cpp.obj"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object example10_softShadows/CMakeFiles/path_tracer.dir/SampleRenderer.cpp.obj"
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\path_tracer.dir\SampleRenderer.cpp.obj /FdCMakeFiles\path_tracer.dir\ /FS -c D:\Codes\Optix\optix7PT_codeBase\optix7course-master\example10_softShadows\SampleRenderer.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\path_tracer.dir\SampleRenderer.cpp.obj /FdCMakeFiles\path_tracer.dir\ /FS -c D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\example10_softShadows\SampleRenderer.cpp
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 example10_softShadows\CMakeFiles\path_tracer.dir\SampleRenderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/path_tracer.dir/SampleRenderer.cpp.i"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe > CMakeFiles\path_tracer.dir\SampleRenderer.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\Optix\optix7PT_codeBase\optix7course-master\example10_softShadows\SampleRenderer.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\example10_softShadows\SampleRenderer.cpp
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 example10_softShadows\CMakeFiles\path_tracer.dir\SampleRenderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/path_tracer.dir/SampleRenderer.cpp.s"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\path_tracer.dir\SampleRenderer.cpp.s /c D:\Codes\Optix\optix7PT_codeBase\optix7course-master\example10_softShadows\SampleRenderer.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\path_tracer.dir\SampleRenderer.cpp.s /c D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\example10_softShadows\SampleRenderer.cpp
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 example10_softShadows\CMakeFiles\path_tracer.dir\Model.cpp.obj: example10_softShadows\CMakeFiles\path_tracer.dir\flags.make
 example10_softShadows\CMakeFiles\path_tracer.dir\Model.cpp.obj: ..\example10_softShadows\Model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object example10_softShadows/CMakeFiles/path_tracer.dir/Model.cpp.obj"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object example10_softShadows/CMakeFiles/path_tracer.dir/Model.cpp.obj"
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\path_tracer.dir\Model.cpp.obj /FdCMakeFiles\path_tracer.dir\ /FS -c D:\Codes\Optix\optix7PT_codeBase\optix7course-master\example10_softShadows\Model.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\path_tracer.dir\Model.cpp.obj /FdCMakeFiles\path_tracer.dir\ /FS -c D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\example10_softShadows\Model.cpp
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 example10_softShadows\CMakeFiles\path_tracer.dir\Model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/path_tracer.dir/Model.cpp.i"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe > CMakeFiles\path_tracer.dir\Model.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\Optix\optix7PT_codeBase\optix7course-master\example10_softShadows\Model.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\example10_softShadows\Model.cpp
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 example10_softShadows\CMakeFiles\path_tracer.dir\Model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/path_tracer.dir/Model.cpp.s"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\path_tracer.dir\Model.cpp.s /c D:\Codes\Optix\optix7PT_codeBase\optix7course-master\example10_softShadows\Model.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\path_tracer.dir\Model.cpp.s /c D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\example10_softShadows\Model.cpp
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 example10_softShadows\CMakeFiles\path_tracer.dir\main.cpp.obj: example10_softShadows\CMakeFiles\path_tracer.dir\flags.make
 example10_softShadows\CMakeFiles\path_tracer.dir\main.cpp.obj: ..\example10_softShadows\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object example10_softShadows/CMakeFiles/path_tracer.dir/main.cpp.obj"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object example10_softShadows/CMakeFiles/path_tracer.dir/main.cpp.obj"
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\path_tracer.dir\main.cpp.obj /FdCMakeFiles\path_tracer.dir\ /FS -c D:\Codes\Optix\optix7PT_codeBase\optix7course-master\example10_softShadows\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\path_tracer.dir\main.cpp.obj /FdCMakeFiles\path_tracer.dir\ /FS -c D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\example10_softShadows\main.cpp
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 example10_softShadows\CMakeFiles\path_tracer.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/path_tracer.dir/main.cpp.i"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe > CMakeFiles\path_tracer.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\Optix\optix7PT_codeBase\optix7course-master\example10_softShadows\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\example10_softShadows\main.cpp
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 example10_softShadows\CMakeFiles\path_tracer.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/path_tracer.dir/main.cpp.s"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 	E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\path_tracer.dir\main.cpp.s /c D:\Codes\Optix\optix7PT_codeBase\optix7course-master\example10_softShadows\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\path_tracer.dir\main.cpp.s /c D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\example10_softShadows\main.cpp
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 # Object files for target path_tracer
 path_tracer_OBJECTS = \
@@ -463,12 +463,12 @@ path_tracer.exe: glfWindow.lib
 path_tracer.exe: glfw3.lib
 path_tracer.exe: clip.lib
 path_tracer.exe: example10_softShadows\CMakeFiles\path_tracer.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ..\path_tracer.exe"
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ..\path_tracer.exe"
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 	"E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\path_tracer.dir --rc="E:\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe" --mt="E:\Windows Kits\10\bin\10.0.19041.0\x64\mt.exe" --manifests -- E:\appdata\VS2019IDE\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\path_tracer.dir\objects1.rsp @<<
- /out:..\path_tracer.exe /implib:..\path_tracer.lib /pdb:D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\path_tracer.pdb /version:0.0 /machine:x64 -Wl,--stack,100000000 /INCREMENTAL:NO /subsystem:console   -LIBPATH:D:\Codes\Optix\optix7PT_codeBase\optix7course-master\example10_softShadows\..\common\lib  ..\gdt.lib "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\lib\x64\cudart_static.lib" "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\lib\x64\cuda.lib" ..\glfWindow.lib ..\glfw3.lib opengl32.lib glew32.lib glew32s.lib ..\clip.lib shlwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:..\path_tracer.exe /implib:..\path_tracer.lib /pdb:D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\path_tracer.pdb /version:0.0 /machine:x64 -Wl,--stack,100000000 /INCREMENTAL:NO /subsystem:console   -LIBPATH:D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\example10_softShadows\..\common\lib  ..\gdt.lib "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\lib\x64\cudart_static.lib" "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\lib\x64\cuda.lib" ..\glfWindow.lib ..\glfw3.lib opengl32.lib glew32.lib glew32s.lib ..\clip.lib shlwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 # Rule to build all files generated by this target.
 example10_softShadows\CMakeFiles\path_tracer.dir\build: path_tracer.exe
@@ -476,13 +476,13 @@ example10_softShadows\CMakeFiles\path_tracer.dir\build: path_tracer.exe
 .PHONY : example10_softShadows\CMakeFiles\path_tracer.dir\build
 
 example10_softShadows\CMakeFiles\path_tracer.dir\clean:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows
 	$(CMAKE_COMMAND) -P CMakeFiles\path_tracer.dir\cmake_clean.cmake
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 .PHONY : example10_softShadows\CMakeFiles\path_tracer.dir\clean
 
 example10_softShadows\CMakeFiles\path_tracer.dir\depend: example10_softShadows\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx
 example10_softShadows\CMakeFiles\path_tracer.dir\depend: example10_softShadows\cuda_compile_ptx_1_generated_devicePrograms.cu.ptx_embedded.c
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Codes\Optix\optix7PT_codeBase\optix7course-master D:\Codes\Optix\optix7PT_codeBase\optix7course-master\example10_softShadows D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\example10_softShadows\CMakeFiles\path_tracer.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\example10_softShadows D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\example10_softShadows\CMakeFiles\path_tracer.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : example10_softShadows\CMakeFiles\path_tracer.dir\depend
 

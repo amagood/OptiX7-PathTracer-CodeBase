@@ -62,6 +62,7 @@ namespace osc
         launchParams.light.du = light.du;
         launchParams.light.dv = light.dv;
         launchParams.light.power = light.power;
+        launchParams.numPixelSamples = 8;
 
         std::cout << "#osc: creating optix context ..." << std::endl;
         createContext();
@@ -767,6 +768,11 @@ namespace osc
     int SampleRenderer::getAccumID()
     {
         return launchParams.frame.accumID;
+    }
+
+    LaunchParams *SampleRenderer::getLaunchParams()
+    {
+        return &launchParams;
     }
 
 } // ::osc

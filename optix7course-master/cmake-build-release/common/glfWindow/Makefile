@@ -51,10 +51,10 @@ RM = "E:\appdata\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Codes\Optix\optix7PT_codeBase\optix7course-master
+CMAKE_SOURCE_DIR = D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+CMAKE_BINARY_DIR = D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -117,18 +117,18 @@ list_install_components\fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow\\CMakeFiles\progress.marks
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) common\glfWindow\all
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\CMakeFiles 0
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) common\glfWindow\clean
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : clean
 
 # The main clean target
@@ -138,30 +138,30 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) common\glfWindow\preinstall
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) common\glfWindow\preinstall
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : depend
 
 # Convenience name for target.
 common\glfWindow\CMakeFiles\glfWindow.dir\rule:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\rule
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : common\glfWindow\CMakeFiles\glfWindow.dir\rule
 
 # Convenience name for target.
@@ -171,9 +171,9 @@ glfWindow: common\glfWindow\CMakeFiles\glfWindow.dir\rule
 
 # fast build rule for target.
 glfWindow\fast:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\build
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : glfWindow\fast
 
 GLFWindow.obj: GLFWindow.cpp.obj
@@ -182,9 +182,9 @@ GLFWindow.obj: GLFWindow.cpp.obj
 
 # target to build an object file
 GLFWindow.cpp.obj:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\GLFWindow.cpp.obj
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : GLFWindow.cpp.obj
 
 GLFWindow.i: GLFWindow.cpp.i
@@ -193,9 +193,9 @@ GLFWindow.i: GLFWindow.cpp.i
 
 # target to preprocess a source file
 GLFWindow.cpp.i:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\GLFWindow.cpp.i
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : GLFWindow.cpp.i
 
 GLFWindow.s: GLFWindow.cpp.s
@@ -204,9 +204,9 @@ GLFWindow.s: GLFWindow.cpp.s
 
 # target to generate assembly for a file
 GLFWindow.cpp.s:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\GLFWindow.cpp.s
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : GLFWindow.cpp.s
 
 __\imgui\backends\imgui_impl_glfw.obj: __\imgui\backends\imgui_impl_glfw.cpp.obj
@@ -215,9 +215,9 @@ __\imgui\backends\imgui_impl_glfw.obj: __\imgui\backends\imgui_impl_glfw.cpp.obj
 
 # target to build an object file
 __\imgui\backends\imgui_impl_glfw.cpp.obj:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\backends\imgui_impl_glfw.cpp.obj
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\backends\imgui_impl_glfw.cpp.obj
 
 __\imgui\backends\imgui_impl_glfw.i: __\imgui\backends\imgui_impl_glfw.cpp.i
@@ -226,9 +226,9 @@ __\imgui\backends\imgui_impl_glfw.i: __\imgui\backends\imgui_impl_glfw.cpp.i
 
 # target to preprocess a source file
 __\imgui\backends\imgui_impl_glfw.cpp.i:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\backends\imgui_impl_glfw.cpp.i
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\backends\imgui_impl_glfw.cpp.i
 
 __\imgui\backends\imgui_impl_glfw.s: __\imgui\backends\imgui_impl_glfw.cpp.s
@@ -237,9 +237,9 @@ __\imgui\backends\imgui_impl_glfw.s: __\imgui\backends\imgui_impl_glfw.cpp.s
 
 # target to generate assembly for a file
 __\imgui\backends\imgui_impl_glfw.cpp.s:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\backends\imgui_impl_glfw.cpp.s
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\backends\imgui_impl_glfw.cpp.s
 
 __\imgui\backends\imgui_impl_opengl3.obj: __\imgui\backends\imgui_impl_opengl3.cpp.obj
@@ -248,9 +248,9 @@ __\imgui\backends\imgui_impl_opengl3.obj: __\imgui\backends\imgui_impl_opengl3.c
 
 # target to build an object file
 __\imgui\backends\imgui_impl_opengl3.cpp.obj:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\backends\imgui_impl_opengl3.cpp.obj
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\backends\imgui_impl_opengl3.cpp.obj
 
 __\imgui\backends\imgui_impl_opengl3.i: __\imgui\backends\imgui_impl_opengl3.cpp.i
@@ -259,9 +259,9 @@ __\imgui\backends\imgui_impl_opengl3.i: __\imgui\backends\imgui_impl_opengl3.cpp
 
 # target to preprocess a source file
 __\imgui\backends\imgui_impl_opengl3.cpp.i:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\backends\imgui_impl_opengl3.cpp.i
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\backends\imgui_impl_opengl3.cpp.i
 
 __\imgui\backends\imgui_impl_opengl3.s: __\imgui\backends\imgui_impl_opengl3.cpp.s
@@ -270,9 +270,9 @@ __\imgui\backends\imgui_impl_opengl3.s: __\imgui\backends\imgui_impl_opengl3.cpp
 
 # target to generate assembly for a file
 __\imgui\backends\imgui_impl_opengl3.cpp.s:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\backends\imgui_impl_opengl3.cpp.s
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\backends\imgui_impl_opengl3.cpp.s
 
 __\imgui\imgui.obj: __\imgui\imgui.cpp.obj
@@ -281,9 +281,9 @@ __\imgui\imgui.obj: __\imgui\imgui.cpp.obj
 
 # target to build an object file
 __\imgui\imgui.cpp.obj:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\imgui.cpp.obj
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\imgui.cpp.obj
 
 __\imgui\imgui.i: __\imgui\imgui.cpp.i
@@ -292,9 +292,9 @@ __\imgui\imgui.i: __\imgui\imgui.cpp.i
 
 # target to preprocess a source file
 __\imgui\imgui.cpp.i:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\imgui.cpp.i
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\imgui.cpp.i
 
 __\imgui\imgui.s: __\imgui\imgui.cpp.s
@@ -303,9 +303,9 @@ __\imgui\imgui.s: __\imgui\imgui.cpp.s
 
 # target to generate assembly for a file
 __\imgui\imgui.cpp.s:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\imgui.cpp.s
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\imgui.cpp.s
 
 __\imgui\imgui_demo.obj: __\imgui\imgui_demo.cpp.obj
@@ -314,9 +314,9 @@ __\imgui\imgui_demo.obj: __\imgui\imgui_demo.cpp.obj
 
 # target to build an object file
 __\imgui\imgui_demo.cpp.obj:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\imgui_demo.cpp.obj
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\imgui_demo.cpp.obj
 
 __\imgui\imgui_demo.i: __\imgui\imgui_demo.cpp.i
@@ -325,9 +325,9 @@ __\imgui\imgui_demo.i: __\imgui\imgui_demo.cpp.i
 
 # target to preprocess a source file
 __\imgui\imgui_demo.cpp.i:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\imgui_demo.cpp.i
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\imgui_demo.cpp.i
 
 __\imgui\imgui_demo.s: __\imgui\imgui_demo.cpp.s
@@ -336,9 +336,9 @@ __\imgui\imgui_demo.s: __\imgui\imgui_demo.cpp.s
 
 # target to generate assembly for a file
 __\imgui\imgui_demo.cpp.s:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\imgui_demo.cpp.s
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\imgui_demo.cpp.s
 
 __\imgui\imgui_draw.obj: __\imgui\imgui_draw.cpp.obj
@@ -347,9 +347,9 @@ __\imgui\imgui_draw.obj: __\imgui\imgui_draw.cpp.obj
 
 # target to build an object file
 __\imgui\imgui_draw.cpp.obj:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\imgui_draw.cpp.obj
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\imgui_draw.cpp.obj
 
 __\imgui\imgui_draw.i: __\imgui\imgui_draw.cpp.i
@@ -358,9 +358,9 @@ __\imgui\imgui_draw.i: __\imgui\imgui_draw.cpp.i
 
 # target to preprocess a source file
 __\imgui\imgui_draw.cpp.i:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\imgui_draw.cpp.i
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\imgui_draw.cpp.i
 
 __\imgui\imgui_draw.s: __\imgui\imgui_draw.cpp.s
@@ -369,9 +369,9 @@ __\imgui\imgui_draw.s: __\imgui\imgui_draw.cpp.s
 
 # target to generate assembly for a file
 __\imgui\imgui_draw.cpp.s:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\imgui_draw.cpp.s
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\imgui_draw.cpp.s
 
 __\imgui\imgui_tables.obj: __\imgui\imgui_tables.cpp.obj
@@ -380,9 +380,9 @@ __\imgui\imgui_tables.obj: __\imgui\imgui_tables.cpp.obj
 
 # target to build an object file
 __\imgui\imgui_tables.cpp.obj:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\imgui_tables.cpp.obj
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\imgui_tables.cpp.obj
 
 __\imgui\imgui_tables.i: __\imgui\imgui_tables.cpp.i
@@ -391,9 +391,9 @@ __\imgui\imgui_tables.i: __\imgui\imgui_tables.cpp.i
 
 # target to preprocess a source file
 __\imgui\imgui_tables.cpp.i:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\imgui_tables.cpp.i
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\imgui_tables.cpp.i
 
 __\imgui\imgui_tables.s: __\imgui\imgui_tables.cpp.s
@@ -402,9 +402,9 @@ __\imgui\imgui_tables.s: __\imgui\imgui_tables.cpp.s
 
 # target to generate assembly for a file
 __\imgui\imgui_tables.cpp.s:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\imgui_tables.cpp.s
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\imgui_tables.cpp.s
 
 __\imgui\imgui_widgets.obj: __\imgui\imgui_widgets.cpp.obj
@@ -413,9 +413,9 @@ __\imgui\imgui_widgets.obj: __\imgui\imgui_widgets.cpp.obj
 
 # target to build an object file
 __\imgui\imgui_widgets.cpp.obj:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\imgui_widgets.cpp.obj
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\imgui_widgets.cpp.obj
 
 __\imgui\imgui_widgets.i: __\imgui\imgui_widgets.cpp.i
@@ -424,9 +424,9 @@ __\imgui\imgui_widgets.i: __\imgui\imgui_widgets.cpp.i
 
 # target to preprocess a source file
 __\imgui\imgui_widgets.cpp.i:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\imgui_widgets.cpp.i
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\imgui_widgets.cpp.i
 
 __\imgui\imgui_widgets.s: __\imgui\imgui_widgets.cpp.s
@@ -435,9 +435,9 @@ __\imgui\imgui_widgets.s: __\imgui\imgui_widgets.cpp.s
 
 # target to generate assembly for a file
 __\imgui\imgui_widgets.cpp.s:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(MAKE) $(MAKESILENT) -f common\glfWindow\CMakeFiles\glfWindow.dir\build.make /nologo -$(MAKEFLAGS) common\glfWindow\CMakeFiles\glfWindow.dir\__\imgui\imgui_widgets.cpp.s
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : __\imgui\imgui_widgets.cpp.s
 
 # Help Target
@@ -487,8 +487,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd D:\Codes\Optix\optix7PT_codeBase\optix7course-master\cmake-build-release\common\glfWindow
+	cd D:\Codes\githubClones\OptiX7-PathTracer-CodeBase\optix7course-master\cmake-build-release\common\glfWindow
 .PHONY : cmake_check_build_system
 

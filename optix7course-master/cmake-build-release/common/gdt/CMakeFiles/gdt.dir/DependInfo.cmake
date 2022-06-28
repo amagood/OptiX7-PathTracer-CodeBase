@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/gdt/gdt/gdt.cpp" "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/gdt/CMakeFiles/gdt.dir/gdt/gdt.cpp.obj"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/gdt/gdt/gdt.cpp" "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/gdt/CMakeFiles/gdt.dir/gdt/gdt.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

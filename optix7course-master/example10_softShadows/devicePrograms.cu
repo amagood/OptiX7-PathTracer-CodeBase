@@ -28,7 +28,7 @@
 using namespace osc;
 
 #define NUM_LIGHT_SAMPLES 1
-#define NUM_PIXEL_SAMPLES 8
+//#define numPixelSamples 8
 constexpr int RRBeginDepth = 4;
 #define maxDepth 7
 
@@ -244,7 +244,7 @@ extern "C" __global__ void __raygen__renderFrame()
     uint32_t u0, u1;
     packPointer(&prd, u0, u1);
 
-    int numPixelSamples = NUM_PIXEL_SAMPLES;
+    int numPixelSamples = optixLaunchParams.numPixelSamples;
 
     vec3f pixelColor = 0.f;
     for (int sampleID = 0; sampleID < numPixelSamples; sampleID++)

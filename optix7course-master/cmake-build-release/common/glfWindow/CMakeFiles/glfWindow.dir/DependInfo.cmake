@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/glfWindow/GLFWindow.cpp" "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/glfWindow/CMakeFiles/glfWindow.dir/GLFWindow.cpp.obj"
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui_impl_glfw.cpp" "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/backends/imgui_impl_glfw.cpp.obj"
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/backends/imgui_impl_opengl3.cpp" "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/backends/imgui_impl_opengl3.cpp.obj"
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui.cpp" "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/imgui.cpp.obj"
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_demo.cpp" "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/imgui_demo.cpp.obj"
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_draw.cpp" "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/imgui_draw.cpp.obj"
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_tables.cpp" "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/imgui_tables.cpp.obj"
-  "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/common/imgui/imgui_widgets.cpp" "D:/Codes/Optix/optix7PT_codeBase/optix7course-master/cmake-build-release/common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/imgui_widgets.cpp.obj"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/glfWindow/GLFWindow.cpp" "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/glfWindow/CMakeFiles/glfWindow.dir/GLFWindow.cpp.obj"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui_impl_glfw.cpp" "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/backends/imgui_impl_glfw.cpp.obj"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/backends/imgui_impl_opengl3.cpp" "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/backends/imgui_impl_opengl3.cpp.obj"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui.cpp" "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/imgui.cpp.obj"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_demo.cpp" "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/imgui_demo.cpp.obj"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_draw.cpp" "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/imgui_draw.cpp.obj"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_tables.cpp" "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/imgui_tables.cpp.obj"
+  "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/common/imgui/imgui_widgets.cpp" "D:/Codes/githubClones/OptiX7-PathTracer-CodeBase/optix7course-master/cmake-build-release/common/glfWindow/CMakeFiles/glfWindow.dir/__/imgui/imgui_widgets.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
